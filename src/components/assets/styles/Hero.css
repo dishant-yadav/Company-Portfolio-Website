@@ -10,7 +10,7 @@
   font-weight: 400;
 }
 .text {
-  font-size: 48px;
+  font-size: 3.5rem;
   font-weight: 800;
   color: black;
   letter-spacing: 2px;
@@ -19,7 +19,16 @@
   padding-top: 200px;
 }
 .hero {
-  background: linear-gradient(to top, #7a75c7, #a8a5f4);
-  margin-top: 75px;
-  min-height: 102vh;  
+  background-image: url("./../images/backgound.jpeg");
+  min-height: 100vh;
+}
+#heroImage {
+  transform: scale(1.5);
+}
+#dig{
+  background-color: yellow;
+  /* color:lightgreen; */
+}
+#contBtn{
+  margin: 0 200px;
 }
