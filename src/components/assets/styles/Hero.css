@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.text {
+  font-size: 48px;
+  font-weight: 800;
+  color: black;
+  letter-spacing: 2px;
+}
+.row {
+  padding-top: 200px;
+}
+.hero {
+  background: linear-gradient(to top, #7a75c7, #a8a5f4);
+  margin-top: 75px;
+  min-height: 102vh;  
+}

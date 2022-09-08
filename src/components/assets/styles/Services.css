@@ -1,0 +1,49 @@
+Section.services {
+  min-height: 100vh;
+  background: linear-gradient(to top, #7a75c7, #a8a5f4);
+}
+.services {
+  margin-top: -25px;
+}
+.number {
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 36px;
+  padding-top: 15px;
+}
+.label {
+  font-size: 30px;
+  font-weight: 500;
+}
+.plus {
+  position: relative;
+  font-size: 32px;
+  bottom: 55px;
+  left: 125px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: -150px;
+  margin-top: 10px;
+}
+.panel {
+  background: linear-gradient(to top, #444075, #6360be);
+  width: (100vw / 2);
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .panel {
+    width: calc(100vw - 70px);
+  }
+}
+@media screen and (max-width: 585px) {
+  .panel {
+    width: calc(100vw - 35px);
+  }
+}
