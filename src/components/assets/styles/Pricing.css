@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 
-.h5{
+.h5 {
   font-size: 28px;
   margin-top: 30px;
   margin-bottom: -60px;
@@ -14,11 +14,6 @@
   font-size: 26px;
 }
 .card:hover {
-  background-color: #7a75c7;
-  color: azure;
-}
-
-.card:hover + .card button {
   background-color: #7a75c7;
   color: azure;
 }

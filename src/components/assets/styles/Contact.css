@@ -1,0 +1,33 @@
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(to top, #8d89cd, #a8a5f4);
+}
+.fix {
+  margin-bottom: -80px;
+}
+.head {
+  font-size: 40px;
+}
+#info {
+  margin: 40px auto 20px auto;
+  font-size: 32px;
+  width: 700px;
+  text-decoration: underline;
+}
+form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px white solid;
+  border-radius: 10px;
+}
+/* .form-floating input {
+  background-color: rgba(85, 69, 181, 0.5);
+}
+.form-floating textarea {
+  background-color: rgba(85, 69, 181, 0.5); 
+} */
+
+#submit {
+  width: 100%;
+}

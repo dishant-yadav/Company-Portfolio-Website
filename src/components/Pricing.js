@@ -9,7 +9,7 @@ const Pricing = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-12 mb-2">
-                        <div className="card card1 h-100">
+                        <div className="card h-100">
                             <div className="card-body">
 
                                 <h2 className="card-title">App Development</h2>
@@ -27,12 +27,12 @@ const Pricing = () => {
 
                                 </ul>
                             </div>
-                            <button className="btn btn-outline-dark ">Buy Now</button>
+                            <button className="btn btn-outline-dark buy">Buy Now</button>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-12 mb-2">
-                        <div className="card card2 h-100">
+                        <div className="card h-100">
                             <div className="card-body">
 
                                 <h2 className="card-title">Web Development</h2>
@@ -50,12 +50,12 @@ const Pricing = () => {
 
                                 </ul>
                             </div>
-                            <button className="btn btn-outline-dark ">Buy Now</button>
+                            <button className="btn btn-outline-dark buy">Buy Now</button>
 
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-12 mb-2">
-                        <div className="card card3 h-100">
+                        <div className="card h-100">
                             <div className="card-body">
 
                                 <h2 className="card-title">Digital Marketing</h2>
@@ -73,7 +73,7 @@ const Pricing = () => {
                             </div>
 
 
-                            <button className="btn btn-outline-dark ">Buy Now</button>
+                            <button className="btn btn-outline-dark" id='buy3'>Buy Now</button>
                         </div>
                     </div>
                 </div>
