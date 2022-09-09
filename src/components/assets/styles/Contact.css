@@ -14,13 +14,13 @@
   width: 700px;
   text-decoration: underline;
 }
+
 form {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 28px auto 28px auto;
   padding: 20px;
-  border: 2px white solid;
-  border-radius: 10px;
 }
+
 /* .form-floating input {
   background-color: rgba(85, 69, 181, 0.5);
 }
@@ -30,4 +30,37 @@ form {
 
 #submit {
   width: 100%;
+}
+
+footer img {
+  position: relative;
+  bottom: 90px;
+  left: 150px;
+  transform: scale(1.5);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: beige;
+}
+
+.footer input {
+  width: 500px;
+  height: 60px;
+}
+
+#emailBtn {
+  height: 60px;
+  background-color: #8d89cd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 10px;
+  outline: transparent;
+}
+.footer h4 {
+  font-size: 26px;
+}
+#copy{
+  font-size: 20px;
 }

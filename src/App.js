@@ -1,10 +1,9 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero"
 import Services from "./components/Services";
-import "./App.css";
-import About from "./components/assets/styles/About";
+import About from "./components/About.js";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
+import "./App.css";
 
 function App() {
   return (
