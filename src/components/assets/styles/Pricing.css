@@ -1,0 +1,31 @@
+#pricing {
+  background: linear-gradient(to top, #7a75c7, #a8a5f4);
+  min-height: 100vh;
+}
+
+.h5{
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: -60px;
+}
+
+.card {
+  text-align: center;
+  font-size: 26px;
+}
+.card:hover {
+  background-color: #7a75c7;
+  color: azure;
+}
+
+.card:hover + .card button {
+  background-color: #7a75c7;
+  color: azure;
+}
+
+.card button {
+  margin: 0 10px 10px 10px;
+  background-color: #a8a5f4;
+  font-size: 30px;
+  font-size: 600;
+}
